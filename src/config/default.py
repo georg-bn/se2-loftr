@@ -12,6 +12,8 @@ _CN.LOFTR.FINE_CONCAT_COARSE_FEAT = True
 _CN.LOFTR.RESNETFPN = CN()
 _CN.LOFTR.RESNETFPN.INITIAL_DIM = 128
 _CN.LOFTR.RESNETFPN.BLOCK_DIMS = [128, 196, 256]  # s1, s2, s3
+_CN.LOFTR.RESNETFPN.NBR_ROTATIONS = 4  # only used when the backbone type is E2ResNetFPN
+_CN.LOFTR.RESNETFPN.E2_SAME_NBR_FILTERS = True  # only used when the backbone type is E2ResNetFPN
 
 # 2. LoFTR-coarse module config
 _CN.LOFTR.COARSE = CN()

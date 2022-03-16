@@ -7,6 +7,10 @@ __pycache__/
 tmp.*
 */.ipynb_checkpoints/*
 
+tags
+slurm_outs
+jobscripts
+
 logs/
 weights/
 dump/

@@ -6,7 +6,8 @@ channels:
   - defaults
 dependencies:
   - python=3.8
-  - cudatoolkit=10.2
+  # - cudatoolkit=10.2
+  - cudatoolkit=11.1
   - pytorch=1.8.1
   - pip
   - pip:
