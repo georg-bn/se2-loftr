@@ -1,9 +1,11 @@
 # SE2-LoFTR
-This is the repo for the CVPR Image Matching Workshop paper *A case for using rotation invariant features in state of the art feature matchers*.
+This is the repo for the CVPR Image Matching Workshop paper [*A case for using rotation invariant features in state of the art feature matchers*](https://arxiv.org/abs/2204.10144).
 We implement a rotation equivariant LoFTR-version by using steerable CNNs.
 
 Please see the [LoFTR repo](https://github.com/zju3dv/LoFTR) or the file `LoFTR_README.md` for instructions on how to obtain the data and run the code.
 We add a single dependency, namely [e2cnn](https://github.com/QUVA-Lab/e2cnn).
+
+The new config-files `configs/loftr/outdoor/loftr_ds_e2_dense*.py` contain the parameters used for our SE2-LoFTR experiments.
 
 ## TODOs
 * Provide pretrained models.
