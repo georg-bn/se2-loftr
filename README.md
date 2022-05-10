@@ -7,8 +7,9 @@ We add a single dependency, namely [e2cnn](https://github.com/QUVA-Lab/e2cnn).
 
 The new config-files `configs/loftr/outdoor/loftr_ds_e2_dense*.py` contain the parameters used for our SE2-LoFTR experiments.
 
+Models trained on MegaDepth can be found [here](https://drive.google.com/drive/folders/1Wiq5wlrg2rhope5Xd_MIKckAnjrjlh1a).
+
 ## TODOs
-* Provide pretrained models.
 * Implement the rotation equivariant backbone as an `EquivariantModule`.
 
 ## Cite
