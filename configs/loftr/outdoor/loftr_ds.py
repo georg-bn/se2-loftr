@@ -1,5 +1,7 @@
 from src.config.default import _CN as cfg
 
+cfg = cfg.clone()
+
 cfg.LOFTR.MATCH_COARSE.MATCH_TYPE = 'dual_softmax'
 
 cfg.TRAINER.CANONICAL_LR = 8e-3
