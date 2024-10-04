@@ -7,7 +7,10 @@ from itertools import chain
 
 import torch
 from yacs.config import CfgNode as CN
-from pytorch_lightning.utilities import rank_zero_only
+try:
+    from pytorch_lightning.utilities import rank_zero_only
+except ModuleNotFoundError:
+    print('WARNING: No pytorch lightning installed. This is ok for interence. Please install pytorch lightning if you want to train.')
 
 
 def lower_config(yacs_cfg):

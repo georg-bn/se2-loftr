@@ -1,5 +1,7 @@
 from src.config.default import _CN as cfg
 
+cfg = cfg.clone()
+
 cfg.LOFTR.BACKBONE_TYPE = 'E2ResNetFPN'
 cfg.LOFTR.RESNETFPN.NBR_ROTATIONS = 4
 cfg.LOFTR.RESNETFPN.E2_SAME_NBR_FILTERS = False
